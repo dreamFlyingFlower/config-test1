@@ -1,0 +1,8 @@
+#dev
+server:
+  port: 22222
+spring:
+  application:
+    name: config-test1-default
+  profiles: 
+    active: dev

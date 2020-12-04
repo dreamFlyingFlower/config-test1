@@ -1,0 +1,14 @@
+server: 
+  port: 22223
+spring:
+  application:
+    name: config-test1-dev
+  profiles:
+    active: dev
+  cloud:
+    zookeeper:
+      connect-string: 192.168.1.146:2181
+    config:
+      discovery:
+        enabled: true
+        service-id: config-test1-dev
