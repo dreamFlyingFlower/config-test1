@@ -7,7 +7,7 @@ spring:
     active: dev
   cloud:
     zookeeper:
-      connect-string: 192.168.1.146:21812
+      connect-string: 192.168.1.146:2182
     config:
       discovery:
         enabled: true
